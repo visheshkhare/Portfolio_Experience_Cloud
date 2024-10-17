@@ -1,0 +1,265 @@
+.footer {
+    min-height: auto;
+    padding-top: 0;
+    background: #f0f3fa;
+    color: #032c61;
+
+}
+
+.content-container_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: var(--dx-g-indigo-vibrant-95);
+    height: 78px;
+    border-bottom: 2px solid var(--dx-g-indigo-vibrant-30);
+}
+.content-container {
+    padding: 0 var(--dx-g-global-header-padding-horizontal);
+}
+
+.graphic-line{
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: #3a31bc;
+
+}
+.graphic {
+    align-self: flex-end;
+    transform: translateY(2px);
+    flex-shrink: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+    background-size: 100%;
+
+}
+
+.graphic-trees {
+    height: 112px;
+    width: 110px;
+    margin-right: var(--dx-g-spacing-lg);
+    background-image: url(https://a.sfdcstatic.com/developer-website/images/footer-graphic-trees.svg);
+}
+
+.graphic-mountains {
+    height: 96px;
+    width: 220px;
+    margin-right: var(--dx-g-spacing-lg);
+    background-image: url(https://a.sfdcstatic.com/developer-website/images/footer-graphic-mountains-2.svg);
+}
+
+
+.graphic-trees-small {
+    height: 66px;
+    width: 52px;
+    margin-left: var(--dx-g-spacing-lg);
+    background-image: url(https://a.sfdcstatic.com/developer-website/images/footer-graphic-trees-small.svg);
+}
+
+
+.headingcontact{
+    margin-left: 1rem;
+}
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .box-container .box {
+    flex: 1 1 25rem;
+    margin: 2.5rem;
+}
+.box a{
+    color: #032c61;
+}
+.footer .box-container .box h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+.footer .box-container .box p {
+    font-size: 1rem;
+    padding: 0.7rem 0;
+    text-transform: none;
+}
+.footer .box-container .box p i {
+    padding-right: 1rem;
+    color: #ffae00;
+}
+.footer .box-container .box a {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    display: block;
+}
+.footer .box-container .box a:hover {
+    color: #ffae00;
+}
+.footer .box-container .box .share {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    gap: 1rem; /* Added gap for consistent spacing */
+}
+
+.box p{
+    text-align: justify;
+}
+
+.logo1, .logo3 {
+    width: 40px; /* Make sure all logos have the same size */
+    margin: 0 10px;
+}
+
+.logo2{
+    width: 31px; /* Make sure all logos have the same size */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.homepage{
+    height: 33.6px;
+    width: 75px;
+}
+
+.footer .credit {
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    border-top: 0.1rem solid #fff3;
+    background: #032c60;
+}
+.footer .credit a {
+    color: #ffae00;
+}
+.footer .fa {
+    color: #e90606;
+    margin: 0 0.3rem;
+    font-size: 1.5rem;
+    animation: pound 0.35s infinite alternate;
+}
+@-webkit-keyframes pound {
+    to {
+        transform: scale(1.1);
+    }
+}
+@keyframes pound {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .box-container {
+        flex-direction: column; /* Stack boxes vertically */
+    }
+    
+    .footer .box-container .box {
+        flex: 1 1 100%; /* Take full width on mobile */
+        margin: 1rem 0; /* Reduce margin for better spacing */
+    }
+
+    .footer .box-container .box p, 
+    .footer .box-container .box a {
+        font-size: 0.9rem; /* Slightly reduce font size */
+    }
+
+    .footer .box-container .box .share {
+        flex-direction: row; /* Keep social icons in a row */
+        gap: 1rem; /* Maintain consistent gap */
+    }
+
+    .logo1, .logo2, .logo3 {
+        width: 30px; /* Adjust logo size for smaller screens */
+        margin: 0 5px; /* Adjust margin for better spacing */
+    }
+
+
+}
+
+/* For Very Small Screens (Max width: 450px) */
+@media (max-width: 450px) {
+    .footer .box-container {
+        padding: 0 1rem; /* Add padding to prevent content from touching edges */
+    }
+
+    .footer .box-container .box {
+        margin: 1rem 0; /* Reduce margin further */
+        padding: 0.5rem; /* Add padding for a consistent look */
+    }
+
+    .footer .box-container .box h3 {
+        font-size: 1.2rem; /* Adjust heading font size */
+    }
+
+    .footer .box-container .box p,
+    .footer .box-container .box a {
+        font-size: 0.8rem; /* Further reduce font size */
+        line-height: 1.4; /* Improve readability */
+    }
+
+    .graphic-trees {
+        display: none;
+    }
+    .graphic-mountains {
+        display: none;
+    }
+    .graphic-trees-small {
+        display: none;
+    }
+
+    .content-container_top {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: var(--dx-g-indigo-vibrant-95);
+    height: 78px;
+    border-bottom: 2px solid var(--dx-g-indigo-vibrant-30);
+    }
+
+    .content-container_top > .graphic-mountains-mobile {
+        display: unset;
+    }
+    .content-container_top > .graphic {
+    align-self: flex-end;
+    transform: translateY(2px);
+    flex-shrink: 0;
+    }
+    .graphic-mountains-mobile {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 56px;
+    width: 100px;
+    background-image: url(https://a.sfdcstatic.com/developer-website/images/footer-graphic-mountains-small-2.svg);
+    }
+    
+
+    .headingcontact {
+        margin: 0 !important;
+    }
+    .mobilecontactinfo{
+        margin-left: -16px;
+    }
+
+    .logo1, .logo2, .logo3 {
+        width: 25px; /* Make logos smaller for very small screens */
+    }
+
+    .footer .box-container .box .share {
+        flex-wrap: wrap; /* Allow wrapping of icons if needed */
+        gap: 0.5rem; /* Reduce gap for smaller screens */
+    }
+}

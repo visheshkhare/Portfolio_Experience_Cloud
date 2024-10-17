@@ -1,0 +1,54 @@
+<template>
+    <section class="footer">
+        <div class= "graphic-line">
+        <div class="content-container content-container_top">
+            <div alt="" class="graphic graphic-trees"></div>
+            <div alt="" class="graphic graphic-mountains"></div>
+            <div alt="" class="graphic graphic-mountains-mobile"></div>
+            <span class="subheading">Sign up for developer updates</span>
+            <div alt="" class="graphic graphic-trees-small"></div>
+        </div>
+        </div>
+
+
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Vishesh's Portfolio</h3>
+                <p>I'm a Junior Salesforce Developer with a blend of admin and developer expertise. Skilled in ⚡ Apex,
+                    🔄 automation (Flow, Workflow Rules), and 💻 Lightning Web Components, I build custom solutions that
+                    drive efficiency and business growth. Always learning and innovating 🚀, I’m passionate about
+                    solving challenges and enhancing user experiences.</p>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="homepage"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                <a href="#about" class="homepage"><i class="fas fa-chevron-circle-right"></i> About</a>
+                <a href="#skills" class="homepage"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                <a href="#education" class="homepage"><i class="fas fa-chevron-circle-right"></i> Education</a>
+                <a href="#work" class="homepage"><i class="fas fa-chevron-circle-right"></i> Work</a>
+                <a href="#experience" class="homepage"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+            </div>
+
+            <div class="box">
+                <h3 class="headingcontact">Contact Info</h3>
+                <p class="mobilecontactinfo"><i class="fas fa-phone"></i>+91 8929294596</p>
+                <p class="mobilecontactinfo"><i class="fas fa-envelope"></i>visheshkhare03@gmail.com</p>
+                <p class="mobilecontactinfo"><i class="fas fa-map-marked-alt"></i>Delhi, India-110059</p>
+                <div class="share">
+                    <div class="logo1"><a onclick={handleNavigateInstagram}
+                            aria-label="Instagram"><img src={instagram}  alt="Instagram Logo"></a></div>
+                    <div class="logo2"><a onclick={handleNavigateGithub}
+                            aria-label="GitHub"><img src={git} class="github" alt="github Logo"></a></div>
+                    <div class="logo3"><a onclick={handleNavigatelinkdin}
+                            aria-label="FaceBook"><img src={fb}  alt="facebook Logo"></a></div>
+                    <div class="logo3"><a onclick={handleNavigatelinkdin}
+                            aria-label="LinkedIn"><img src={linkdin}  alt="linkdin Logo"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Designed with by <a onclick={handleNavigatelinkdin}>Vishesh Khare</a></h1>
+    </section>
+</template>

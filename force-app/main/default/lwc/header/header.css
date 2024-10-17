@@ -1,0 +1,38 @@
+/* New CSS provided */
+.background {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -10px;
+}
+
+.content {
+    text-align: center;
+    color: white; 
+}
+
+.head1 {
+    font-size: 1.5rem;
+}
+
+.head2 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-top: 12px;
+}
+
+.button {
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 40px 20px 70px;
+    font-size:2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    transform-style: preserve-3d;
+}
